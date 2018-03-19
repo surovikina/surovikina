@@ -11,37 +11,43 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="page-header__inner container">
-        <div class="page-header__top row justify-content-between no-gutters ">
-          <a class="page-header__logo col-lg-3" href="#"><span class="page-header__logo--1">swieze</span><span class="page-header__logo--2">ryby</span><span class="page-header__logo--3">.com</span></a>
-          <nav class ="main-nav col-lg-9 ml-auto ">
-            <ul class ="main-nav__list d-flex justify-content-end">
-              <li class ="main-nav__item">
-                <a class ="main-nav__link" href="#">home</a>
-              </li>
-              <li class ="main-nav__item">
-                <a class ="main-nav__link" href="#">o nas</a>
-              </li>
-              <li class ="main-nav__item">
-                <a class ="main-nav__link" href="#">sortyment</a>
-              </li>
-              <li class ="main-nav__item">
-                <a class ="main-nav__link" href="#">współpraca</a>
-              </li>
-              <li class ="main-nav__item">
-                <a class ="main-nav__link" href="#">kontakt</a>
-              </li>
-              <li class ="main-nav__item">
-                <a class="main-nav__link page-header__tel" href="tel:500 110 110">
-                  tel. 500 110 110
-                </a>
-              </li>
-            </ul>
-          </nav>
+      <div class="container">
+        <div class="row  no-gutters">
+          <div class="col-lg-3">
+            <a class="page-header__logo " href="#"><span class="page-header__logo--1">swieze</span><span class="page-header__logo--2">ryby</span><span class="page-header__logo--3">.com</span></a>
+          </div>
+          <div class="col-lg-9 ml-auto">
+            <nav class ="main-nav">
+              <ul class ="main-nav__list">
+                <li class ="main-nav__item">
+                  <a class ="main-nav__link" href="#">home</a>
+                </li>
+                <li class ="main-nav__item">
+                  <a class ="main-nav__link" href="#">o nas</a>
+                </li>
+                <li class ="main-nav__item">
+                  <a class ="main-nav__link" href="#">sortyment</a>
+                </li>
+                <li class ="main-nav__item">
+                  <a class ="main-nav__link" href="#">współpraca</a>
+                </li>
+                <li class ="main-nav__item">
+                  <a class ="main-nav__link" href="#">kontakt</a>
+                </li>
+                <li class ="main-nav__item">
+                  <a class="main-nav__link page-header__tel" href="tel:500 110 110">
+                    tel. 500 110 110
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
-        <div class="page-header__center">
-          <h1 class="row no-gutters align-items-center justify-content-center page-header__title">świeże ryby</h1>
-          <p class="row no-gutters align-items-center justify-content-center page-header__message">Zobacz, co jeszcze oferujemy!</p>
+        <div class="row no-gutters align-items-center justify-content-center">
+          <div class="col-lg-12">
+            <h1 class="page-header__title">świeże ryby</h1>
+            <p class="page-header__message">Zobacz, co jeszcze oferujemy!</p>
+          </div>
         </div>
       </div>
     </header>
@@ -58,8 +64,10 @@
               <a href="" class="about-us__btn btn">historia<br> naszej firmy</a>
             </div>
           </div>
-          <div class="about-us__foto col-lg-6 ml-auto">
-            <!-- <img  class="about-us__img" src="img/foto.jpg" alt=""> -->
+          <div class="col-lg-6 ml-auto">
+            <div class="about-us__foto">
+              <span class="about-us__name-foto">NASZ SKLEP</span>
+            </div>
           </div>
         </div>
       </div>
@@ -181,7 +189,7 @@
       <div class="contact__main-info">
           <div class="container">
             <div class="row no-gutters d-flex justify-content-end">
-              <div class="col-lg-6">
+              <div class="col-lg-6 col-md-5">
                 <div class="contact__info">
                   <h2 class="contact__title">kontakt</h2>
                   <p class="contact__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie egestas massa, et sollicitudin urna mattis faucibus. Praesent sagittis laoreet est, et efficitur enim lacinia id. Aenean imperdiet diam nec efficitur commodo. Morbi at purus tempus tellus tempus placerat. Sed faucibus sed elit at lacinia.</p>
