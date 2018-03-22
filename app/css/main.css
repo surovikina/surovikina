@@ -477,9 +477,6 @@ li {
     position: absolute;
     display: none;
   }
-  .container {
-    padding: 0 15px;
-  }
   .contact__description {
     padding-right: 15px;
   }
@@ -509,6 +506,9 @@ li {
   }
   .contact__main-info {
     clip-path: none;
+  }
+  .container {
+    padding: 0 15px;
   }
 }
 @media screen and (min-width: 992px) {
