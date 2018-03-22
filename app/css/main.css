@@ -413,7 +413,7 @@ li {
   height: 1px;
   width: 81px;
   bottom: 0;
-  left: 85%;
+  right: 15px;
   background-color: #bae6fa;
 }
 .contact__description {
@@ -477,8 +477,20 @@ li {
     position: absolute;
     display: none;
   }
-  body {
+  .container {
     padding: 0 15px;
+  }
+  .contact__description {
+    padding-right: 15px;
+  }
+  .contact__title {
+    padding-right: 15px;
+  }
+  .page-header {
+    margin-bottom: 60px;
+  }
+  .contact__title {
+    padding-top: 100px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -554,10 +566,7 @@ li {
     margin-right: auto;
   }
   .contact__btn {
-    margin-left: 60%;
-  }
-  .contact__title::after {
-    left: 72%;
+    margin-left: 50%;
   }
   .assortment__description {
     width: auto;
