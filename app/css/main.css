@@ -3,6 +3,7 @@ body {
   font-size: 14px;
   line-height: 21px;
   color: #737373;
+  margin: 0 ;
 }
 ul,
 li {
@@ -470,6 +471,12 @@ li {
   .main-nav__list {
     flex-direction: column;
   }
+  .container {
+    padding: 0 10px;
+  }
+  body {
+    margin: 0 5px;
+  }
 }
 @media screen and (max-width: 576px) {
   .assortment__next,
@@ -506,9 +513,6 @@ li {
   }
   .contact__main-info {
     clip-path: none;
-  }
-  .container {
-    padding: 0 15px;
   }
 }
 @media screen and (min-width: 992px) {
